@@ -1,0 +1,20 @@
+header {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+
+  .title-logo {
+    font-family: "Dancing Script", cursive;
+  }
+
+  .search-container {
+    background-color: white;
+    #search {
+      border: none;
+    }
+  }
+
+  .bi-search {
+    // color: black;
+  }
+}

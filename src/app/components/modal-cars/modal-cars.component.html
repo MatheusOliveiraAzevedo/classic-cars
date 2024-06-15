@@ -1,0 +1,39 @@
+<section class="card">
+  <header class="card-header d-flex align-items-center justify-content-between">
+    <span class="card-title m-0">Adicionar Carro</span>
+    <button (click)="closeModal()" class="btn btn-sm btn-close"></button>
+  </header>
+  <div class="card-body">
+    <form [formGroup]="formCars">
+      <fieldset class="d-flex justify-content-center">
+        <img [src]="urlImg" class="w-50" alt="Imagem selecionada no campo de seleção de imagem">
+      </fieldset>
+      <fieldset>
+          <label class="col-form-label" for="image">Imagem</label>
+          <input class="form-control form-control-solid" type="file" accept="image/*" id="image" (change)="fileSelect($event)" formControlName="image">
+      </fieldset>
+      <div class="separator my-4"></div>
+      <fieldset>
+        <label class="col-form-label" for="nomeVeiculo">Nome do Veiculo</label>
+        <input class="form-control form-control-solid" id="nomeVeiculo" type="text" formControlName="nomeVeiculo">
+      </fieldset>
+      <div class="separator my-4"></div>
+      <fieldset>
+        <label class="col-form-label" for="marca">Marca</label>
+        <select class="form-select form-control form-control-solid" name="marca" id="marca" formControlName="marca">
+          <option value="marca.value" *ngFor="let marca of marcas">{{marca.label}}</option>
+        </select>
+        <!-- <input class="form-control form-control-solid" id="marca" type="text" formControlName="marca"> -->
+      </fieldset>
+      <div class="separator my-4"></div>
+      <fieldset>
+        <label class="col-form-label" for="text">Texto</label>
+        <input class="form-control form-control-solid" id="text" type="text" formControlName="text">
+      </fieldset>
+    </form>
+  </div>
+  <footer class="card-footer d-flex align-items-center justify-content-end gap-3">
+    <button class="btn btn-sm btn-secondary" (click)="closeModal()">Cancelar</button>
+    <button type="submit" (click)="submit()" class="btn btn-sm btn-dark">Salvar</button>
+  </footer>
+</section>

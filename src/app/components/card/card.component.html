@@ -1,0 +1,15 @@
+<div class="card" style="width: 350px;" *ngFor="let car of cars">
+  <header class="card-header d-flex flex-column justify-content-center">
+    <span class="card-title fw-semibold m-0">{{car.marca}}</span>
+  </header>
+  <figure class="figure">
+    <img class="w-100" [src]="car.imagem" [alt]="car.alt">
+  </figure>
+  <div class="card-body d-flex flex-column">
+    <span class="fw-semibold text-danger m-0 pb-2 fs-5">{{car.nome}}</span>
+    <p class="fw-medium">{{car.texto}} </p>
+  </div>
+  <footer class="card-footer d-flex justify-content-end">
+    <button class="btn btn-dark btn-sm px-3 fw-bold">Abrir</button>
+  </footer>
+</div>

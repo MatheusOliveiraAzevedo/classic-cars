@@ -1,0 +1,162 @@
+{
+  "categorias": [
+    {
+      "id": 0,
+      "imagem": "src/assets/categorias/hatch.png",
+      "titulo": "Hatch",
+      "alt": "Categoria referente a um tipo de veiculo que tem porta malas menor, geralmente com a tampa vertical"
+    },
+    {
+      "id": 1,
+      "imagem": "src/assets/categorias/sedan.png",
+      "titulo": "Sedan",
+      "alt": "Cateforia referente a um tipo de veiculo em que o porta malas é maior, tendo uma protuberancia grande na traseira, com a tampa do porta malas esticada pra fora"
+    },
+    {
+      "id": 2,
+      "imagem": "src/assets/categorias/wegon.png",
+      "titulo": "Wegon",
+      "alt": "Categoria referente a um tipo de veiculo que assim como o hatch, tem uma tampa de porta malas na vertical, porem a carroceria é mais alongada, deixando o carro grande em comprimento, e com um porta malas grande"
+    },
+    {
+      "id": 3,
+      "imagem": "src/assets/categorias/van.png",
+      "titulo": "Van",
+      "alt": "Categoria referente a um veiculo mais voltado para transportar muitas pessoas, normalmente tem muito espaço interno, entradas mais facilitadas e porta malas relativamente grande"
+    },
+    {
+      "id": 4,
+      "imagem": "src/assets/categorias/suv.png",
+      "titulo": "SUV",
+      "alt": "Categoria referente a um veiculo em geral, grande. Normalmente mais alto que o normal para vencer obstaculos em estradas de terra"
+    },
+    {
+      "id": 5,
+      "imagem": "src/assets/categorias/esportivo.png",
+      "titulo": "Sport",
+      "alt": "Categoria referente a um veiculo que em geral tem duas portas, é mais baixo e tem um motor muito forte"
+    }
+  ],
+  "marcas": [
+    {
+      "id": 0,
+      "label": "Fiat",
+      "value": "fiat"
+    },
+    {
+      "id": 1,
+      "label": "Chevrolet",
+      "value": "chevrolet"
+    },
+    {
+      "id": 2,
+      "label": "Ford",
+      "value": "ford"
+    },
+    {
+      "id": 3,
+      "label": "VW",
+      "value": "vw"
+    }
+  ],
+  "form": [
+    {
+      "id": 1,
+      "input": "text",
+      "idName": "marca",
+      "nameView": "Marca"
+    },
+    {
+      "id": 2,
+      "input": "text",
+      "idName": "nome",
+      "nameView": "Nome"
+    },
+    {
+      "id": 3,
+      "input": "text",
+      "idName": "modelo",
+      "nameView": "Modelo"
+    },
+    {
+      "id": 4,
+      "input": "text",
+      "idName": "texto",
+      "nameView": "Texto"
+    },
+    {
+      "id": 5,
+      "input": "text",
+      "idName": "alt",
+      "nameView": "Alt"
+    },
+    {
+      "id": 6,
+      "input": "text",
+      "idName": "valor",
+      "nameView": "Valor"
+    }
+  ],
+  "carros": [
+    {
+      "id": 0,
+      "imagem": "assets/carros/opala-novo.jpg",
+      "marca": "Chevrolet",
+      "nome": "Opala",
+      "texto": "Um carro classico no pais, devido suas linhas bonitas, e sua resistencia e durabilidade, em uma epoca em que não tinhamos concorrencia externa, foi um carro que durou em linha de produção por muitos anos sem grandes alterações.",
+      "alt": "Imagem de um carro chevrolet opala em diagonal, sendo possivel ver a dianteira e a lateral",
+      "valor": "R$ 70,00",
+      "categoria": 1
+    },
+    {
+      "id": 1,
+      "imagem": "assets/carros/uno-novo.jpg",
+      "marca": "Fiat",
+      "nome": "Uno",
+      "texto": "Outro grande classico do pais, o Fiat Uno era um carro italiano que começou a ser fabricado no pais nos anos 80, e teve muito sucesso em vendas devido a sua robustes, valor de peças baratas para manutenção e espaçoso.",
+      "alt": "Imagem de um carro Fiat Uno em diagonal, sendo possivel ver a dianteira e a lateral",
+      "valor": "R$ 70,00",
+      "categoria": 0
+    },
+    {
+      "id": 2,
+      "imagem": "assets/carros/fusca-novo.jpeg",
+      "marca": "VW",
+      "nome": "Fusca",
+      "texto": "O Fusca foi um dos primeiros carros a fazer sucesso no pais, chegou aqui na decada de 50, e foi o carro mais barato por muito tempo. Era um carro muito economico, facil de dar manutenção, e muito resistente. Não tinha grandes confortos, mas supria a necessidade de muitas familias.",
+      "alt": "Imagem de um carro VW Fusca em diagonal, sendo possivel ver a dianteira e a lateral",
+      "valor": "R$ 70,00",
+      "categoria": 0
+    },
+    {
+      "id": 3,
+      "imagem": "assets/carros/del-rey-novo.jpg",
+      "marca": "Ford",
+      "nome": "Del Rey",
+      "texto": "O Del Rey foi um carro de bastante sucesso da Ford nos anos 80, quando tiveram que encerrar a produção do Galaxie, a ford tinha que por um carro em seu lugar, então surgiu o Del Rey. Mais luxuoso que o Corcel, muitos itens exclusivos e caros.",
+      "alt": "Imagem de um carro Ford Del Rey em diagonal, sendo possivel ver a dianteira e a lateral",
+      "valor": "R$ 70,00",
+      "categoria": 1
+    },
+    {
+      "id": 4,
+      "imagem": "assets/carros/palio-novo.jpg",
+      "marca": "Fiat",
+      "nome": "Palio",
+      "texto": "O Palio foi um carro de grande sucesso de vendas da marca, por muito tempo vendeu muito, sempre encostado no primeiro lugar, mas nunca conseguiu chegar la devido ao irmão Uno que também permanecia em vendas. O Palio foi um carro que nos trouxe referencias de carros mais seguros na epoca e mais confortaveis para a categoria dele, alem de um visual lindo.",
+      "alt": "Imagem de um carro Fiat Palio em diagonal, sendo possivel ver a dianteira e a lateral",
+      "valor": "R$ 70,00",
+      "categoria": 0
+    },
+    {
+      "id": 5,
+      "imagem": "C:\\fakepath\\wegon.png",
+      "marca": "",
+      "nome": "Marea",
+      "texto": "Fiat Marea",
+      "alt": "",
+      "valor": "R$",
+      "categoria": 1
+    }
+  ]
+}
